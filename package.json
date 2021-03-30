@@ -1,0 +1,22 @@
+{
+  "name": "express_ejs",
+  "version": "1.0.0",
+  "description": "First practice with the EJS templating engine",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jon-D-Smith/express_ejs.git"
+  },
+  "author": "Jon Smith",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Jon-D-Smith/express_ejs/issues"
+  },
+  "homepage": "https://github.com/Jon-D-Smith/express_ejs#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
