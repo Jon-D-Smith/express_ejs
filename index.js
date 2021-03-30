@@ -11,6 +11,11 @@ app.get('/', (req, res) => {
     res.render('home');
 })
 
+app.get('/random', (req, res) => {
+    const num = Math.floor(Math.random() * 10);
+    res.render('random', { num });
+})
+
 
 app.listen(port, () => {
     console.log('connected to express sever on port: ' + port)
